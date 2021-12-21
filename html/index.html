@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>메인페이지</title>
+    <link rel="stylesheet" href="../assets/css/content.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div style="max-width:1024px; margin:0 auto">
+        <header>
+            <h1>
+                부적합 보고서
+                <div class="btn_group">
+                    <button>임시저장</button>
+                    <button>저장</button>
+                </div>
+
+            </h1>
+
+            <div class="top_cont">
+                <div class="radio_group">
+                    <span class="chk_box">
+                        <input type="radio" id="radios00" name="radioDefault00" checked="">
+                        <label for="radios00">원료/부원료</label>
+                    </span>
+                    <span class="chk_box">
+                        <input type="radio" id="radios01" name="radioDefault00">
+                        <label for="radios01">공정품</label>
+                    </span>
+                    <span class="chk_box">
+                        <input type="radio" id="radios02" name="radioDefault00">
+                        <label for="radios02">제품</label>
+                    </span>
+                    <span class="chk_box">
+                        <input type="radio" id="radios03" name="radioDefault00">
+                        <label for="radios03">이상 발생</label>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- 부적합 내용 -->
+            <div class="sub_title">
+                <h2>부적합 내용</h2>
+            </div>
+            <!-- STEP -->
+            <ul class="pl_steps">
+                <li class="active">
+                    <span class="txt">작성</span>
+                    <span class="icon"></span>
+                </li>
+                <li>
+                    <span class="txt">검토</span>
+                    <span class="icon"></span>
+                </li>
+                <li>
+                    <span class="txt">승인</span>
+                    <span class="icon"></span>
+                </li>
+            </ul>
+            <!-- //STEP -->
+            <div class="cont_inner">
+                <!-- INPUT FORM -->
+                <ul class="formlist">
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>관리번호</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>발생공정</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label has_pop">
+                            <input class="floating-input pr_40" type="text" placeholder=" ">
+                            <a href="" class="input_ico btn_search"><span class="blind">검색</span></a>
+                            <label>품명</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input pr_80" type="text" placeholder=" ">
+                            <label>Lot No.</label>
+                            <a href="" class="input_ico btn_search" style="right:50px"><span class="blind">검색</span></a>
+                            <a href="" class="input_ico btn_qrcode"><span class="blind">QR 스캔</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>수신팀</label>
+                            <a href="" class="input_ico btn_team"><span class="blind">수신팀</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>발신팀</label>
+                            <a href="" class="input_ico btn_team"><span class="blind">발신팀</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>발신일</label>
+                            <a href="" class="input_ico btn_date"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>회신요청일</label>
+                            <a href="" class="input_ico btn_date"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div class="floating-label">
+                            <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                            <label>세부내용</label>
+                        </div>
+                    </li>
+                </ul>
+                <!-- //INPUT FORM -->
+            </div>
+            <!-- //부적합 내용-->
+            <!-- 원인분석 및 재발방지대책 -->
+            <div class="sub_title">
+                <h2>원인분석 및 재발방지대책 </h2>
+            </div>
+            <!-- STEP -->
+            <ul class="pl_steps">
+                <li class="active">
+                    <span class="txt">작성</span>
+                    <span class="icon"></span>
+                </li>
+                <li>
+                    <span class="txt">검토</span>
+                    <span class="icon"></span>
+                </li>
+                <li>
+                    <span class="txt">승인</span>
+                    <span class="icon"></span>
+                </li>
+            </ul>
+            <!-- //STEP -->
+            <div class="cont_inner">
+                <!-- INPUT FORM -->
+                <ul class="formlist">
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>생산일</label>
+                            <a href="" class="input_ico btn_date"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input pr_80" type="text" placeholder=" ">
+                            <label>Lot No.</label>
+                            <a href="" class="input_ico btn_search" style="right:50px"><span class="blind">검색</span></a>
+                            <a href="" class="input_ico btn_qrcode"><span class="blind">QR 스캔</span></a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="floating-label quantity_wrap">
+                            <button type="button" id="sub" class="quantity_sub">-</button>
+                            <input class="floating-input" type="number" max="3" placeholder=" ">
+                            <button type="button" id="add" class="quantity_add">+</button>
+                            <label>수량</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input pr_80" type="text" placeholder=" ">
+                            <label>담당자</label>
+                            <a href="" class="input_ico btn_manager"><span class="blind">담당자</span></a>
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div class="floating-label">
+                            <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                            <label>발생원인</label>
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div style="background:#e8e8e8; height:100px; padding:20px; color:#888">
+                            사진 추가 영역
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div class="floating-label">
+                            <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                            <label>수평전개</label>
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div class="floating-label">
+                            <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                            <label>재발 방지 대책</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>접수일</label>
+                            <a href="" class="input_ico btn_date"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>접수인</label>
+                            <a href="" class="input_ico btn_manager"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- //INPUT FORM -->
+            </div>
+            <!-- //원인분석 및 재발방지대책-->
+        </div>
+    </div>
+<script>
+     //나이 계산기
+     $('.quantity_wrap .quantity_add').click(function () {
+            $(this).prev().val(+$(this).prev().val() + 1);	
+        });
+    $('.quantity_wrap .quantity_sub').click(function () {
+
+        $(this).next().val(+$(this).next().val() - 1);
+    });
+</script>
+</body>
+
+</html>
