@@ -39,7 +39,7 @@ header .btn_group button:last-child{background:#2cb0d1;color:#fff;}
 /****  floating-Lable style start ****/
 .floating-label{position:relative;margin-bottom: 15px;}
 .floating-input,
-.floating-select{display:block;width:100%;height: 35px;padding:4px 4px;border:none;border-bottom: 1px solid #BBBBBD;background-color:transparent;font-size:14px;box-sizing: border-box;}
+.floating-select{display:block;width:100%;height: 35px;padding:4px 4px;border:0 none;border-bottom: 1px solid #BBBBBD;background-color:transparent;font-size:14px;box-sizing: border-box;}
 .floating-input:focus,
 .floating-select:focus{border-bottom:3px solid #009CC3;outline:none;}
 .floating-label label{position:absolute;top:5px;left:5px;color:#999;font-size:14px;font-weight:normal;pointer-events:none;transition:0.2s ease all;-webkit-transition:0.2s ease all;-moz-transition:0.2s ease all;}
