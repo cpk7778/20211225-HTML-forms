@@ -22,7 +22,7 @@ header .btn_group button:last-child{background:#2cb0d1;color:#fff;}
 .container {position: relative; background: #F2F2F3; padding: 25px;}
 .cont_inner {background: #fff;}
 
-.pl_steps{display:flex;position:absolute;z-index:1;top: 32px;right:-42px;justify-content:end;}
+.pl_steps{display:flex;position:absolute;z-index:1;top: 32px;right: 0;justify-content:end;}
 .pl_steps li{position:relative;width:82px;height:42px;}
 .pl_steps li .txt{display:block;color:#D1D2D6;font-size:11px;text-indent:-7px;margin-bottom: 5px;}
 .pl_steps li .icon{display:inline-block;width:9px;height:9px;margin-top: 4px;border-radius:50%;background:#C5C5C5;}
