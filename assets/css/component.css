@@ -79,8 +79,8 @@ header .btn_group.btn_line .btn{width:100px;}
 @media (min-width: 768px) and (max-width: 1024px)  {
     html {font-size: 62.5%;}
     .formlist > li {width:50%;}
-    header {background:red}
-
+    header {background:pink}
+  
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
