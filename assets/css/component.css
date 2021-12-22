@@ -81,7 +81,7 @@ header .btn_group.btn_line .btn{width:100px;}
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     html {font-size:50%;}
     .formlist > li {width:100%;}
 }
