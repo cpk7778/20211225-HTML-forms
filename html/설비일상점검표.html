@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>설비 일상 점검표</title>
+    <link rel="stylesheet" href="../assets/css/content.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+</head> 
+
+<body>
+    <div style="max-width:1024px; margin:0 auto">
+        <header>
+            <h1>
+                설비 일상 점검표
+                <div class="btn_group btn_line">
+                    <button class="btn">임시저장</button>
+                    <button class="btn type02">저장</button>
+                </div>
+            </h1>
+        </header>
+
+        <div class="container">
+            <!-- 기본 정보 -->
+            <div class="sub_title">
+                <h2>기본 정보</h2>
+            </div>
+            <div class="cont_inner">
+                <!-- INPUT FORM -->
+                <ul class="formlist">
+                    <li>
+                        <div class="floating-label has_pop">
+                            <input class="floating-input pr_40" type="text" placeholder=" ">
+                            <a href="" class="input_ico ico_date"><span class="blind">달력</span></a>
+                            <label>점검일</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>설비명</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>설비번호</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>제작업체</label>
+                        </div>
+                    </li>
+                </ul>
+                <!-- //INPUT FORM -->
+            </div>
+            <!-- //기본 정보-->
+            <!-- 점검 항목 -->
+            <div class="sub_title">
+                <h2>
+                    점검 항목
+                    <p>
+                        <span>DALIY</span>
+                        <span>장비확인</span>
+                    </p>
+                </h2>
+            </div>
+            <div class="cont_inner">
+                <ul class="check_list">
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- //점검 항목-->
+        </div>
+    </div>
+
+
+<script>
+     //수량 계산
+     $('.quantity_wrap .quantity_add').click(function () {
+            $(this).prev().val(+$(this).prev().val() + 1);	
+        });
+    $('.quantity_wrap .quantity_sub').click(function () {
+
+        $(this).next().val(+$(this).next().val() - 1);
+    });
+</script>
+</body>
+
+</html>
