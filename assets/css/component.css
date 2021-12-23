@@ -102,18 +102,18 @@ header .btn_group.btn_line .btn{width:100px;}
 .layerPopup.left .layerPopup_wrap { animation: layerPopLeftAnimation 0.2s;}
 .layerPopup.left .layerPopup_wrap.full.full_menu_layer.close {animation: layerPopLeftCloseAnimation 0.2s;}
 
-.layerPopup .layerPopup_wrap {position: relative;display: flex;flex-direction: column;z-index: 2;box-sizing: border-box;width: calc(100vw - 60px);max-width: 324px;min-width: 320px;max-height: 500px;padding-bottom: 20px;background: #fff;border-radius: 5px;}
+.layerPopup .layerPopup_wrap {position: relative;display: flex;flex-direction: column;z-index: 2;box-sizing: border-box;width: calc(100vw - 60px);max-width: 480px;min-width: 320px;max-height: 500px;padding-bottom: 20px;background: #fff;border-radius: 5px;}
 .layerPopup .layerPopup_heading {position: relative;padding:16px 0 16px;}
-.layerPopup .layerPopup_heading .heading{padding: 0 40px 0 20px;color: #343A40;font-size: 16px;line-height: 22px;font-weight: 700;text-align: left;}
-.layerPopup .layerPopup_heading .explain{margin-top: 2px; padding: 0 15px; color: #6C747B; font-size: 12px; line-height: 18px;}
+.layerPopup .layerPopup_heading .heading{padding: 0 40px 0 20px;color: #343A40;font-size: 1.6rem;line-height: 22px;font-weight: 700;text-align: left;}
+.layerPopup .layerPopup_heading .explain{margin-top: 2px; padding: 0 15px; color: #6C747B; font-size: 1.2rem; line-height: 18px;}
 .layerPopup .layerPopup_heading .btn_close{position: absolute;top: 20px;right: 20px;width: 15px;height: 15px;overflow:hidden;text-indent: -999rem;background: url(../images/common/ico_close.png);background-size: contain;outline: none;}
-.layerPopup .layerPopup_content {display: flex;flex: 1;flex-direction: column;height: auto;padding: 20px;color: #6C747B;font-size: 12px;line-height: 18px;overflow-x: hidden;overflow-y: auto;z-index: 1;border: solid #e8e8e8;border-width: 1px 0;}
+.layerPopup .layerPopup_content {display: flex;flex: 1;flex-direction: column;height: auto;padding: 20px;color: #6C747B;font-size:  1.2rem; line-height: 18px;overflow-x: hidden;overflow-y: auto;z-index: 1;border: solid #e8e8e8;border-width: 1px 0;}
 .layerPopup .layerPopup_bottom{padding: 20px 20px 0;}
 
 .sign_table th, .sign_table td{padding:5px 10px; border:1px solid #BBBBBD}
 .sign_table td {height:70px; }
 
-@media (min-width: 768px) and (max-width: 1024px)  {
+@media (min-width: 768px) and (max-width: 1023px)  {
     html {font-size: 74%; }
     .formlist > li {width:50%;}
 }
