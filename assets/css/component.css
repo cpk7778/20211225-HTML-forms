@@ -114,8 +114,8 @@ header .btn_group.btn_line .btn{width:100px;}
 .sign_table td {height:70px; }
 
 @media (min-width: 768px) and (max-width: 1024px)  {
-    html {font-size: 74%; }
-    header {background:pink}
+    html {font-size: 18px; }
+    header {background:blue}
     .formlist > li {width:50%;}
 }
 
