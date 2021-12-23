@@ -68,7 +68,7 @@ header .btn_group.btn_line .btn{width:100px;}
 .quantity_wrap .quantity_add{right:0; width:40px; border-left:1px solid #D1D2D6 }
 
 
-.formlist.radio_wrap .radio_group + label {padding-right:100px;}
+.formlist .radio_wrap .radio_group + label {padding-right:100px;}
 
 
 
@@ -117,8 +117,8 @@ header .btn_group.btn_line .btn{width:100px;}
 @media (min-width: 768px) and (max-width: 1023px)  {
     html {font-size: 74%; }
     .formlist > li {width:50%;}
-    .formlist.radio_wrap{width: 100%;}
-    .formlist.radio_wrap .radio_group + label {padding-right:150px;}
+    .formlist .radio_wrap{width: 100%;}
+    .formlist .radio_wrap .radio_group + label {padding-right:150px;}
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
