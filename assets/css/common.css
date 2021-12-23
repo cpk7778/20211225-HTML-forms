@@ -40,7 +40,7 @@ input,textarea{padding: 14px 15px 15px;font-weight: 500;}
 .btn_group .btn small.type02 { border:1px solid #212529;}
 .btn_group .btn small.type03 { border:1px solid #E9ECEF;}
 .btn_group .btn.medium{padding:0 10p;font-size: 13px; color:#6C747B; border:1px solid #CED4DA;}
-.btn_group .btn.medium.type02 { color:#fff; border:1px solid #212529;}
+.btn_group .btn.medium.type02 { color:#fff;}
 .btn_group .btn.medium.type03 { border:1px solid #e9ecef; color:#212529;}
 .btn_group .btn:disabled,.btn_group .btn.disabled {color: #868E96; cursor:default;background-color: #e9ecef; border:1px solid #E9ECEF;}
 .btn_group.btn_line{display: flex;}
