@@ -21,7 +21,7 @@
                         <div class="line"></div>
                     </div>
                 </a>
-                부적합 보고서
+                부적합 보고서1
                 <div class="btn_group btn_line">
                     <button class="btn">임시저장</button>
                     <button class="btn type02">저장</button>
@@ -304,7 +304,7 @@
             <div class="layerPopup_wrap">
                 <div class="layerPopup_heading">
                     <h2 class="heading">결재</h2>
-                    <button class="btn_close">닫기</button>
+                    <button class="btn_close pop_close">닫기</button>
                 </div>
                 <div class="layerPopup_content">
                     <table class="sign_table">
@@ -327,7 +327,7 @@
                 <div class="layerPopup_bottom">
                     <div class="btn_group multy">
                         <!-- multy 2개 버튼 적용 -->
-                        <button class="btn">닫기</button>
+                        <button class="btn pop_close">닫기</button>
                         <button class="btn type02">확인</button>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
             $(name).addClass('open');
             $('html').addClass('scroll_hidden');
 
-            $(name).find('.btn_close').click(function(){
+            $(name).find('.pop_close').click(function(){
                 $(this).parents('.layerPopup').removeClass('open');
                 $('html').removeClass('scroll_hidden');
             });
