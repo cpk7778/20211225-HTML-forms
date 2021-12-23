@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
 
 /*
 Thin(100) , Light(300) , Regular(400) , Medium(500) ,Bold(700) ,Black(900)
@@ -15,6 +14,10 @@ background: url(../images/common/ico_find_tab.png)
 */
 
 /***** s : common *****/
+html.scroll_hidden{overflow-y: hidden;}
+html.scroll_hidden body{overflow-y: hidden;}
+
+
 label , .label{display: inline-block;color: #6C747B;font-size: 12px;}
 input, select, textarea , button{color: #212529;font-size: 13px;line-height: 19px;outline: none;}
 ::placeholder{color: #868e96;font-weight: 400;}
@@ -36,7 +39,7 @@ input,textarea{padding: 14px 15px 15px;font-weight: 500;}
 .btn_group .btn.small{padding:3px 6px 3px; font-size: 11px; font-weight: 400; border:1px solid #CED4DA; border-radius:4px; }
 .btn_group .btn small.type02 { border:1px solid #212529;}
 .btn_group .btn small.type03 { border:1px solid #E9ECEF;}
-.btn_group .btn.medium{padding:8px 10px 8px;font-size: 13px; color:#6C747B; border:1px solid #CED4DA;}
+.btn_group .btn.medium{padding:0 10p;font-size: 13px; color:#6C747B; border:1px solid #CED4DA;}
 .btn_group .btn.medium.type02 { color:#fff; border:1px solid #212529;}
 .btn_group .btn.medium.type03 { border:1px solid #e9ecef; color:#212529;}
 .btn_group .btn:disabled,.btn_group .btn.disabled {color: #868E96; cursor:default;background-color: #e9ecef; border:1px solid #E9ECEF;}
