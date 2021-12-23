@@ -1,7 +1,6 @@
 
 @charset "UTF-8";
 
-html {font-size: 62.5%;}
 h1{font-size:2.4rem;font-weight:500;}
 
 
@@ -66,7 +65,7 @@ header .btn_group.btn_line .btn{width:100px;}
 .radio_wrap .radio_group {padding-left:100px;}
 
 
-@media (min-width: 768px) and (max-width: 1024px)  {
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
     .formlist > li {width:50%;}
 }
 
