@@ -1,7 +1,15 @@
 
 @charset "UTF-8";
 
-html {font-size: 62.5%;}
+html {font-size: 62.5%;
+
+      -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+      -moz-text-size-adjust: none; /*Firefox*/
+ 
+      -ms-text-size-adjust: none;  /*Ie*/
+ 
+      -o-text-size-adjust: none; /*old versions of Opera*/}
 h1{font-size:2.4rem;font-weight:500;}
 
 
@@ -97,12 +105,12 @@ header .btn_group.btn_line .btn{width:100px;}
 .pr_80{padding-right: 80px;}
 .pr_80{padding-right: 80px;}
 .wd100per {width:100% !important; }
-.input_ico {width: 24px; height: 24px; display: block; position: absolute; top:0; right:10px; }
-.ico_search{background: url(../images/common/ico_search.png) no-repeat 0 0;}
-.ico_date{background: url(../images/common/ico_date.png) no-repeat 0 0;}
-.ico_manager{background: url(../images/common/ico_manager.png) no-repeat 0 0;}
-.ico_team{background: url(../images/common/ico_team.png) no-repeat 0 0;}
-.ico_qrcode{background: url(../images/common/ico_qrcode.png) no-repeat 0 0;}
+.input_ico {width:40px; height: 40px; display: block; position: absolute; top:-5px; right:0; }
+.ico_search{background: url(../images/common/ico_search.png) no-repeat center;}
+.ico_date{background: url(../images/common/ico_date.png) no-repeat center;}
+.ico_manager{background: url(../images/common/ico_manager.png) no-repeat center;}
+.ico_team{background: url(../images/common/ico_team.png) no-repeat center;}
+.ico_qrcode{background: url(../images/common/ico_qrcode.png) no-repeat center;}
 
 .ico_menu  { display: block; margin-right: 14px; margin-top: 8px;  }
 .ico_menu .line {position:relative;background:#000;margin-top: 0px;margin-bottom: 5px;width: 27px;height: 3px;}
