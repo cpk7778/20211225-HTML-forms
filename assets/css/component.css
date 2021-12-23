@@ -1,6 +1,7 @@
 
 @charset "UTF-8";
 
+html {font-size: 62.5%;}
 h1{font-size:2.4rem;font-weight:500;}
 
 
@@ -69,7 +70,7 @@ header .btn_group.btn_line .btn{width:100px;}
     .formlist > li {width:50%;}
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .formlist > li {width:100%;}
 }
 
