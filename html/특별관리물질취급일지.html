@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>특별관리물질 취급일지</title>
+    <link rel="stylesheet" href="../assets/css/content.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%;">
+        <header>
+            <h1>
+                <a href=""  class="ico_menu">
+                    <div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </a>
+                특별관리물질 취급일지
+                <div class="btn_group btn_line">
+                    <button class="btn">임시저장</button>
+                    <button class="btn type02">저장</button>
+                </div>
+            </h1>
+        </header>
+
+        <div class="container">
+            <div class="cont_inner">
+                <!-- INPUT FORM -->
+                <ul class="formlist">
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>취급 물질</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>취급일</label>
+                            <a href="" class="input_ico ico_date"><span class="blind">달력</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>취급량(ml /l)</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>취급시간 (분)</label>
+                            <a href="" class="input_ico ico_clock"><span class="blind">시계</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label type2">
+                            <span>환기장치 <br> 가동여부</span>
+                            <div class="radio_group">
+                                <span class="chk_box">
+                                    <input type="radio" id="radios00" name="radioDefault00" checked="">
+                                    <label for="radios00">(ㅇ)</label>
+                                </span>
+                                <span class="chk_box">
+                                    <input type="radio" id="radios01" name="radioDefault00">
+                                    <label for="radios01">( X )</label>
+                                </span>
+                            </div>
+                            
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="floating-label type2">
+                            <span>개인보호구 <br> 사용여부</span>
+                            <div class="radio_group">
+                                <span class="chk_box">
+                                    <input type="radio" id="radios11" name="radioDefault11" checked="">
+                                    <label for="radios11">(ㅇ)</label>
+                                </span>
+                                <span class="chk_box">
+                                    <input type="radio" id="radios12" name="radioDefault11">
+                                    <label for="radios12">( X )</label>
+                                </span>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>취급자 서명</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="floating-label">
+                            <input class="floating-input" type="text" placeholder=" ">
+                            <label>비고</label>
+                        </div>
+                    </li>
+                    <li class="wd100per">
+                        <div class="floating-label">
+                            <textarea class="floating-input floating-textarea" placeholder=" "></textarea>
+                            <label>작업내용 및 특이사항</label>
+                        </div>
+                    </li>
+                </ul>
+                <!-- //INPUT FORM -->
+            </div>
+        </div>
+    </div>
+    
+        <div class="layerPopup " id="layer1">
+            <div class="layerPopup_wrap">
+                <div class="layerPopup_heading">
+                    <h2 class="heading">결재</h2>
+                    <button class="btn_close pop_close">닫기</button>
+                </div>
+                <div class="layerPopup_content">
+                    <table class="sign_table">
+                        <thead>
+                            <tr>
+                                <th>작성</th>
+                                <th>검토</th>
+                                <th>승인</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="layerPopup_bottom">
+                    <div class="btn_group multy">
+                        <!-- multy 2개 버튼 적용 -->
+                        <button class="btn pop_close">닫기</button>
+                        <button class="btn type02">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        //수량 계산
+        $('.quantity_wrap .quantity_add').click(function () {
+            $(this).prev().val(+$(this).prev().val() + 1);
+        });
+        $('.quantity_wrap .quantity_sub').click(function () {
+
+            $(this).next().val(+$(this).next().val() - 1);
+        });
+
+        //popup
+        function view_layer(name){
+            var name = '#' + name;
+            $(name).addClass('open');
+            $('html').addClass('scroll_hidden');
+
+            $(name).find('.pop_close').click(function(){
+                $(this).parents('.layerPopup').removeClass('open');
+                $('html').removeClass('scroll_hidden');
+            });
+        }
+
+    </script>
+</body>
+
+</html>
