@@ -70,16 +70,18 @@ header .btn_group.btn_line .btn{width:100px;}
 
 .formlist .radio_wrap .radio_group {padding-left:130px; }
 .floating-label.type2 {display: flex; align-items: flex-end; border-bottom: 1px solid #BBBBBD; padding-bottom:15px; margin-top:9px}
-.floating-label.type2 > span{color: #999; font-size: 1.8rem; margin-right:60px; padding-left:5px}
+.floating-label.type2 > span{width: 130px;color: #999;font-size: 1.8rem;padding-left:5px;}
 .floating-label.type2 .radio_group{ width:auto; }
 
 
 
-/* serch */
+
 .pr_40{padding-right: 40px;}
 .pr_80{padding-right: 80px;}
 .pr_80{padding-right: 80px;}
 .wd100per {width:100% !important; }
+
+/* 아이콘 */
 .input_ico {width:40px; height: 40px; display: block; position: absolute; top:-5px; right:0; }
 .ico_search{background: url(../images/common/ico_search.png) no-repeat center;}
 .ico_date{background: url(../images/common/ico_date.png) no-repeat center;}
@@ -87,10 +89,8 @@ header .btn_group.btn_line .btn{width:100px;}
 .ico_team{background: url(../images/common/ico_team.png) no-repeat center;}
 .ico_qrcode{background: url(../images/common/ico_qrcode.png) no-repeat center;}
 .ico_clock{background: url(../images/common/ico_clock.png) no-repeat center;}
-
-.ico_menu  { display: block; margin-right: 14px; margin-top: 8px;  }
+.ico_menu { display: block; margin-right: 14px; margin-top: 8px;  }
 .ico_menu .line {position:relative;background:#000;margin-top: 0px;margin-bottom: 5px;width: 27px;height: 3px;}
-
 
 
 
@@ -114,6 +114,8 @@ header .btn_group.btn_line .btn{width:100px;}
 
 .sign_table th, .sign_table td{padding:5px 10px; border:1px solid #BBBBBD}
 .sign_table td {height:70px; }
+
+
 
 @media (min-width: 768px) and (max-width: 1023px)  {
     html {font-size: 74%; }
