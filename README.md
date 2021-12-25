@@ -13,6 +13,6 @@
 
 - [(PL.3.1) 부적합 보고서](https://cpk7778.github.io/20211225_CMPPL/html/PL.3.1.html).
 
-- [(PL.3.2) 설비 일상 점검표](/html/PL.3.2.html).
+- [(PL.3.2) 설비 일상 점검표](../html/PL.3.2.html).
 
-- [(PL.3.5) 특별관리물질 취급일지](/html/PL.3.5.html).
+- [(PL.3.5) 특별관리물질 취급일지](../html/PL.3.5.html).
